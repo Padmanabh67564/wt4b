@@ -1,0 +1,24 @@
+command to run backend is:
+npm run dev or nodemon server.js
+
+//Create (Post):
+http://localhost:5000/api/users
+give data in this form:{
+  "name": "Ravi",
+  "email": "ravi@gmail.com",
+  "age": 22
+}
+
+//Read(Get):
+http://localhost:5000/api/users
+
+//Update(Put):
+http://localhost:5000/api/users/<_id>
+
+{
+  "age": 25
+}
+
+//Delete:
+http://localhost:5000/api/users/<_id>
+
